@@ -19,7 +19,7 @@ function palindrome(str) {
     //loop backwards, to reconsturct the str 
     const stringReversed = (str) => {
     //make an empty string 
-    result = "";
+    let result = "";
     //for loop example, starting at the END of the string not the beginning 
     for(let i = str.length-1; )
 
