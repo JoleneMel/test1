@@ -15,10 +15,15 @@ function palindrome(str) {
         return str.toLowerCase();
       }
 
-    //loop through the string and using ES6 => to make a function 
+     //loop through the string and using ES6 => to make a function 
+    //loop backwards, to reconsturct the str 
     const stringReversed = (str) => {
-    
-}
+    //make an empty string 
+    result = "";
+    //for loop example, starting at the END of the string not the beginning 
+    for(let i = str.length-1; )
+
+  }
     const cleanedStr = stringWithAlphaNumeric(str);
     //Make string either lower or uppercase, lowercase is what we will use 
     const lowerCaseStr = stringLowerCased(cleanedStr);
