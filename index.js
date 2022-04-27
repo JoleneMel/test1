@@ -14,7 +14,11 @@ function palindrome(str) {
         //using ES6 to return the string in lowercase
         return str.toLowerCase();
       }
-      
+
+    //loop through the string and using ES6 => to make a function 
+    const stringReversed = (str) => {
+    
+}
     const cleanedStr = stringWithAlphaNumeric(str);
     //Make string either lower or uppercase, lowercase is what we will use 
     const lowerCaseStr = stringLowerCased(cleanedStr);
