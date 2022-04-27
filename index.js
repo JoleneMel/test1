@@ -7,6 +7,7 @@ function palindrome(str) {
       //^ = not, a-z and 0-9 is alphanumerical and g= global and i=ignore case
       return str.replace(/[^a-z0-9]/gi, "");
       //Another way to do this is by using (/[\W_]/gi, "");
+      //We need to include _ so it takes that as well.
     }
   
     const cleanedStr = stringWithAlphaNumeric(str);
