@@ -10,6 +10,11 @@ function palindrome(str) {
       //We need to include _ so it takes that as well.
     }
   
+    function stringLowerCased(str) {
+        //using ES6 to return the string in lowercase
+        return str.toLowerCase();
+      }
+      
     const cleanedStr = stringWithAlphaNumeric(str);
     //Make string either lower or uppercase, lowercase is what we will use 
     const lowerCaseStr = stringLowerCased(cleanedStr);
